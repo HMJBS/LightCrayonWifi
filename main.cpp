@@ -262,7 +262,6 @@ class PointerData{							//画面に表示されるLED光点を管理するクラス
 			return cur;
 		}
 		void drawLine(){
-			if (!cur && work!=0) return;	//カーソルが押されていないなら抜ける
 			switch (this->color){
 			case 1:
 				line(disp, Point(static_cast<int>(DifDisplayX*this->lx), static_cast<int>(DifDisplayY*this->ly)), Point(static_cast<int>(DifDisplayX*this->x), static_cast<int>(DifDisplayY*this->y)), Scalar(0, 0, 255), LineThickness, 4, 0);
@@ -273,8 +272,10 @@ class PointerData{							//画面に表示されるLED光点を管理するクラス
 			case 3:
 				line(disp, Point(static_cast<int>(DifDisplayX*this->lx), static_cast<int>(DifDisplayY*this->ly)), Point(static_cast<int>(DifDisplayX*this->x), static_cast<int>(DifDisplayY*this->y)), Scalar(0, 255, 0), LineThickness, 4, 0);
 				break;
-			default:
+			case 4:
 				line(disp, Point(static_cast<int>(DifDisplayX*this->lx), static_cast<int>(DifDisplayY*this->ly)), Point(static_cast<int>(DifDisplayX*this->x), static_cast<int>(DifDisplayY*this->y)), Scalar(0, 0, 0), LineThickness, 4, 0);
+				break;
+			default:
 				break;
 			}
 		}
@@ -295,8 +296,11 @@ class PointerData{							//画面に表示されるLED光点を管理するクラス
 				catch (cv::Exception exp){ cout << "cv::exception" << endl; }
 			}
 			*/
-			if (!this->cur){
+			
+				//cout << "col=" << to_string(color) << endl;
 				switch (this->color){
+				default:
+					break;
 				case 1:
 					circle(disp2, Point(static_cast<int>(DifDisplayX*this->x), static_cast<int>(DifDisplayY*this->y)), LineThickness, Scalar(0, 0, 255), -1, 4, 0);
 					break;
@@ -306,12 +310,12 @@ class PointerData{							//画面に表示されるLED光点を管理するクラス
 				case 3:
 					circle(disp2, Point(static_cast<int>(DifDisplayX*this->x), static_cast<int>(DifDisplayY*this->y)), LineThickness, Scalar(0, 255, 0), -1, 4, 0);
 					break;
-				default:
+				case 4:
 					circle(disp2, Point(static_cast<int>(DifDisplayX*this->x), static_cast<int>(DifDisplayY*this->y)), LineThickness, Scalar(0, 0, 0), -1, 4, 0);
 					break;
 
 				}
-			}
+			
 		}
 		void setCur(bool in){
 			this->cur = in;
@@ -731,7 +735,7 @@ public:
 			for (auto bb : b){
 				bb.draw(dest);
 			}
-			//ゲームバーを描画
+			//ゲームバーをc
 			for (auto pp : p){
 				pp.draw(dest);
 			}
@@ -946,18 +950,18 @@ public:
 					//緑,青LEDからidを読み込む処理
 					int id = 0;		
 					if (rawCamera.at<Vec3b>(PointData[pointNum].getY() | 1, PointData[pointNum].getX())[2] > RedThreshold){		//赤色LEDは点灯しているか？
-						id |= 1 >> 0;
+						id |= 1 << 0;
 					}
 					if (rawCamera.at<Vec3b>(PointData[pointNum].getY() | 1, PointData[pointNum].getX())[1] > greenThreshold){		//緑色LEDは点灯しているか？
-						id |= 1 >> 1;
+						id |= 1 << 1;
 					}
 					if (rawCamera.at<Vec3b>(PointData[pointNum].getY() | 1, PointData[pointNum].getX())[0] > BlueThreshold){		//青色LEDは点灯しているか？
-						id |= 1 >> 2;
+						id |= 1 << 2;
 					}
 					id = id - 1;
 					if (id == -1) {
 						PointData[pointNum].incTtd();						//TTDをインクリメントする
-						cout << "pointData.ttd=" << to_string(PointData[pointNum].getTTD()) << endl;
+						//cout << "pointData.ttd=" << to_string(PointData[pointNum].getTTD()) << endl;
 						if (PointData[pointNum].checkTtdAndKill()==1){				//TTDが最大数に達したらPointDataをkill()する
 							cout << "Point[" << to_string(pointNum) << "] killed by TTD" << endl;
 						}
@@ -970,6 +974,7 @@ public:
 				else{
 
 				}
+				PointData[pointNum].drawLine();
 			}
 			/*
 			//debug

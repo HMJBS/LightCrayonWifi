@@ -3,44 +3,44 @@ c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lig
 c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(73): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
 c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(227): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
 c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(229): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(289): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(340): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(341): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(356): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(365): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(366): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(374): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(380): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(386): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(392): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(398): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(414): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(415): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(444): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(488): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(492): warning C4806: '^' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(492): warning C4554: '^' : check operator precedence for possible error; use parentheses to clarify precedence
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(493): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(494): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(497): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(498): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(507): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(514): warning C4101: 'dotas' : unreferenced local variable
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(514): warning C4101: 'dotbs' : unreferenced local variable
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(648): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(652): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(655): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(677): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(290): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(344): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(345): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(346): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(360): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(369): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(370): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(378): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(384): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(390): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(396): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(402): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(418): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(419): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(448): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(492): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(496): warning C4806: '^' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(496): warning C4554: '^' : check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(497): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(498): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(501): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(502): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(511): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(518): warning C4101: 'dotas' : unreferenced local variable
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(518): warning C4101: 'dotbs' : unreferenced local variable
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(652): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(656): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(659): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
 c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(681): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(709): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(710): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(715): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(917): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(919): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(1005): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(685): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(713): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(714): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(719): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(921): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(923): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
 c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(1010): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(1013): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(1075): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
-c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(828): warning C4101: 'dummy' : unreferenced local variable
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(1015): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(1018): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(1080): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+c:\users\tanuki\documents\visual studio 2013\projects\lightcrayon_idpluswifi\lightcrayon_idpluswifi\main.cpp(832): warning C4101: 'dummy' : unreferenced local variable
   LightCrayon_IDplusWifi.vcxproj -> C:\Users\tanuki\Documents\Visual Studio 2013\Projects\LightCrayon_IDplusWifi\Debug\LightCrayon_IDplusWifi.exe
